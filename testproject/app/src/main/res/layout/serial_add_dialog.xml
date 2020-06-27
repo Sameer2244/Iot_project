@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/dialogbox"
+    android:paddingBottom="15dp"
+    android:paddingRight="15dp"
+    android:paddingLeft="15dp"
+    android:paddingTop="15dp"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Device info"
+        android:id="@+id/deviceinfo"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:paddingTop="5dp"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:paddingBottom="12dp"
+        android:layout_marginTop="15dp"
+        android:paddingTop="12dp"
+        android:layout_below="@+id/deviceinfo"
+        android:paddingLeft="10dp"
+        android:hint="name your device"
+        android:background="@drawable/inputs"
+        android:id="@+id/inputdevicename"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:paddingBottom="12dp"
+        android:paddingTop="12dp"
+        android:hint="Enter device ID"
+        android:paddingLeft="10dp"
+        android:layout_below="@+id/inputdevicename"
+        android:textSize="25dp"
+        android:id="@+id/inputdeviceserial"
+        android:background="@drawable/inputs"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="cancel"
+            android:layout_below="@+id/inputdeviceserial"
+            android:layout_marginTop="15dp"
+            android:id="@+id/cancel"
+            android:background="@drawable/buttons"
+            android:layout_weight="1"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ok"
+            android:layout_below="@+id/inputdeviceserial"
+            android:layout_marginTop="15dp"
+            android:id="@+id/ok"
+            android:background="@drawable/buttons"
+            android:layout_weight="1"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>

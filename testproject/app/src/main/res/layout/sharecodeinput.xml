@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:padding="20dp"
+    android:background="@drawable/dialogbox"
+    android:layout_height="wrap_content">
+    <EditText
+        android:id="@+id/inputcode"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5.5dp"
+        android:hint="enter sharing code"
+        android:textSize="25dp"
+        />
+    <Button
+        android:id="@+id/codeokbtn"
+        android:text="OK"
+        android:textSize="20dp"
+        android:background="@drawable/buttons"
+        android:layout_toRightOf="@+id/inputcode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>
