@@ -7,17 +7,11 @@
     tools:context=".welcomescreen">
 
 
-    <ImageView
-        android:id="@+id/welcometheme"
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:scaleX="1.05"
-        android:scaleY="1.1"
-        android:src="@drawable/welcomescreen"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        android:text="Swipe up"
+        android:textSize="22sp"
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
