@@ -1,4 +1,4 @@
-package com.example.archimax;
+package com.example.myapp;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;

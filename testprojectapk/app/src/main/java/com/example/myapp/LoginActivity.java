@@ -1,4 +1,4 @@
-package com.example.archimax;
+package com.example.myapp;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;

@@ -1,4 +1,4 @@
-package com.example.archimax;
+package com.example.myapp;
 
 public class serialinfo {
     public String devicename ,deviceserial;
